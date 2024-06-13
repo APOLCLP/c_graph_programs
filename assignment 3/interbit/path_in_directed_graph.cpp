@@ -17,7 +17,7 @@ int solve(int A, vector<vector<int> > &B) {
            if(num==A)return 1;
            for(auto it :hash[num]){
                if(!vis[it]){
-                  vis[it]=0;
+                  vis[it]=1;
                   level.push(it);
                }
                
